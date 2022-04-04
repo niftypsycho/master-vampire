@@ -11,12 +11,13 @@ F3 "" 150 100 50 H V C CNN
 F4 "1uF" 250 0 60 H V C CNN "Capacitance"
 F5 "50V" 500 -100 60 H I C CNN "Voltage Rating"
 F6 "X7R" 250 -100 60 H I C CNN "TempCo"
-F7 "±20%" 550 0 60 H I C CNN "Tolerance"
+F7 "20per" 550 0 60 H I C CNN "Tolerance"
 F8 "0603" 250 -200 60 H I C CNN "Package"
 F9 "DNP" 50 350 50 H I C CNN "MPN"
 F10 "DNP" 150 450 50 H I C CNN "Manufacturer"
 F11 "DNP" 250 550 50 H I C CNN "Supplier"
 F12 "DNP" 350 650 50 H I C CNN "Supplier PN"
+F13 "DNP" 250 -100 50 H V C CNN "MV PN"
 $FPLIST
  C?
  C_????_*
@@ -482,6 +483,22 @@ X 1 1 -150 0 50 R 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 X 1 1 -150 0 50 R 50 50 2 1 P
 X 2 2 150 0 50 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# M_StencilGuide
+#
+DEF M_StencilGuide M 0 20 Y Y 1 F N
+F0 "M" 0 125 50 H V C CNN
+F1 "M_StencilGuide" 0 -150 50 H I C CNN
+F2 "master-vampire:STENCIL_GUIDE_HOLE" 0 -150 50 H I C CNN
+F3 "" 0 -150 50 H I C CNN
+F4 "DNP" -50 -150 50 H I C CNN "Manufacturer"
+F5 "DNP" 0 -150 50 H I C CNN "MPN"
+F6 "DNP" 0 -150 50 H I C CNN "MV PN"
+DRAW
+C 0 0 56 0 1 4 N
+C 0 0 71 0 1 4 f
 ENDDRAW
 ENDDEF
 #
