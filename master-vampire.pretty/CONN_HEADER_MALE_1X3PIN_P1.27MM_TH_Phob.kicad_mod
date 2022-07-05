@@ -24,7 +24,7 @@
   (pad "2" thru_hole oval (at 1.27 0) (size 1.15 1.7) (drill 0.65 (offset 0 0.395)) (layers *.Cu *.Mask) (tstamp 4abbae22-efca-4e48-9ae7-9cd005609853))
   (pad "3" thru_hole oval (at 2.54 0) (size 1.15 1.7) (drill 0.65 (offset 0 0.395)) (layers *.Cu *.Mask) (tstamp ac74ac26-f413-4e29-8bdf-b0711f12d7f4))
   (model "${KIPRJMOD]/../../master-vampire/master-vampire.3dshapes/CONN_HEADER_MALE_1X3PIN_P1.27MM_TH.step"
-    (offset (xyz 2.54 0 0.5))
+    (offset (xyz 2.54 0 -2.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
